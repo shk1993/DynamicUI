@@ -1,0 +1,75 @@
+{
+  "name": "tsn-questions-ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "1.0.0",
+    "final-form": "4.6.1",
+    "final-form-arrays": "1.0.4",
+    "immutable": "3.8.2",
+    "moment": "2.22.1",
+    "nearley": "2.13.0",
+    "react": "16.3.2",
+    "react-datepicker": "1.5.0",
+    "react-dom": "16.3.2",
+    "react-final-form": "3.4.0",
+    "react-final-form-arrays": "1.0.6",
+    "react-scripts-ts": "2.16.0"
+  },
+  "scripts": {
+    "cm": "git-cz",
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject",
+    "gen:renderGrammar": "nearleyc ./src/grammar/render.ne --out ./src/grammar/tmpRender.js && echo '/* tslint:disable */' > ./src/grammar/render.js && cat ./src/grammar/tmpRender.js >> ./src/grammar/render.js && rm ./src/grammar/tmpRender.js",
+    "tslint": "tslint -p .",
+    "gen:nextQuestionGrammar": "nearleyc ./src/grammar/nextQuestion.ne --out ./src/grammar/nextQuestion.js",
+    "prettier": "prettier --single-quote --trailing-comma all --write \"./src/**/*.{ts,tsx,js,jsx}\" ",
+    "gen:nearley-railroad": "nearley-railroad ./src/grammar/nextQuestion.ne --out nextQuestion.html && nearley-railroad ./src/grammar/render.ne --out render.html",
+    "gen:docs": "typedoc --jsx react --mode modules --target ES6 --ignoreCompilerErrors --exclude \"**/*.test*\" --out docs ./src",
+    "cypress": "cypress open"
+  },
+  "devDependencies": {
+    "@archi/cz-conventional-jira": "0.0.2",
+    "@types/jest": "22.2.3",
+    "@types/nearley": "2.11.0",
+    "@types/node": "10.1.0",
+    "@types/react": "16.3.14",
+    "@types/react-datepicker": "1.1.2",
+    "@types/react-dom": "16.0.5",
+    "commitizen": "2.10.1",
+    "cypress": "3.0.2",
+    "husky": "1.0.0-rc.8",
+    "lint-staged": "7.1.2",
+    "prettier": "1.13.3",
+    "react-testing-library": "3.1.4",
+    "tslint-sonarts": "1.6.0",
+    "typedoc": "^0.11.1",
+    "typescript": "^2.9.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/@archi/cz-conventional-jira"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "echo 'Committed with hooks' >> \"$HUSKY_GIT_PARAMS\""
+    }
+  },
+  "lint-staged": {
+    "**/*.{ts,tsx,js,jsx}": [
+      "prettier --single-quote --trailing-comma all --write --parser typescript",
+      "tslint",
+      "git add"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx,js,jsx}",
+      "!src/index.tsx"
+    ]
+  }
+}

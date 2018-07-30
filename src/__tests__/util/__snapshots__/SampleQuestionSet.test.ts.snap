@@ -1,0 +1,2023 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SampleQuestionSet verifies the form names has not changed 1`] = `
+Object {
+  "Names": Object {
+    "ANESTH": Object {
+      "q1": "DE2006",
+      "title": "Anesthesia Report",
+    },
+    "BLOOD": Object {
+      "q1": "DE114",
+      "title": "Blood Reports",
+    },
+    "DEVICE": Object {
+      "q1": "",
+      "title": "Device Report",
+    },
+    "FALL": Object {
+      "q1": "DE192",
+      "title": "Fall Report",
+    },
+    "HERF": Object {
+      "q1": "",
+      "title": "Healthcare Event Reporting Form",
+    },
+    "INCIDENT": Object {
+      "q1": "",
+      "title": "Incident Reporting",
+    },
+    "LINK": Object {
+      "q1": "",
+      "title": "Linked Events",
+    },
+    "MED": Object {
+      "q1": "",
+      "title": "Medication or Other Substance",
+    },
+    "PARI": Object {
+      "q1": "DE363",
+      "title": "Parinatal Report",
+    },
+    "PRES": Object {
+      "q1": "DE408",
+      "title": "Pressure Injury Report",
+    },
+    "REVIEW": Object {
+      "q1": "",
+      "title": "Summary of all forms",
+    },
+    "SURG": Object {
+      "q1": "DE513",
+      "title": "Surgery Report",
+    },
+    "UNSAFE": Object {
+      "q1": "",
+      "title": "Unsafe Event Report",
+    },
+    "VTE": Object {
+      "q1": "DE1003",
+      "title": "Venous Thromboembolism (VTE)",
+    },
+  },
+  "Questions": Object {
+    "DE1003": "VTE",
+    "DE1006": "VTE",
+    "DE1015": "VTE",
+    "DE1027": "VTE",
+    "DE1030": "VTE",
+    "DE105": "HERF",
+    "DE112": "LINK",
+    "DE113": "LINK",
+    "DE114": "BLOOD",
+    "DE123": "BLOOD",
+    "DE15": "HERF",
+    "DE192": "FALL",
+    "DE2000": "ANESTH",
+    "DE2003": "ANESTH",
+    "DE2006": "ANESTH",
+    "DE2012": "PRES",
+    "DE2015": "PRES",
+    "DE2018": "SURG",
+    "DE2021": "SURG",
+    "DE2024": "SURG",
+    "DE2027": "VTE",
+    "DE204": "FALL",
+    "DE21": "HERF",
+    "DE210": "FALL",
+    "DE213": "FALL",
+    "DE270": "MED",
+    "DE3": "HERF",
+    "DE30": "HERF",
+    "DE353": "PARI",
+    "DE354": "PARI",
+    "DE363": "PARI",
+    "DE366": "PARI",
+    "DE372": "PARI",
+    "DE375": "PARI",
+    "DE381": "PARI",
+    "DE390": "PARI",
+    "DE394": "PARI",
+    "DE399": "PARI",
+    "DE408": "PRES",
+    "DE411": "PRES",
+    "DE414": "PRES",
+    "DE420": "PRES",
+    "DE432": "PRES",
+    "DE438": "PRES",
+    "DE447": "PRES",
+    "DE450": "PRES",
+    "DE461": "SURG",
+    "DE513": "SURG",
+    "DE516": "SURG",
+    "DE519": "SURG",
+    "DE522": "ANESTH",
+    "DE525": "ANESTH",
+    "DE534": "HERF",
+    "DE78": "HERF",
+    "DE81": "HERF",
+    "DE84": "HERF",
+    "DE9": "HERF",
+    "moreLE": "LINK",
+    "numOfLE": "LINK",
+    "review": "REVIEW",
+  },
+}
+`;
+
+exports[`SampleQuestionSet verifies the sample question set has not changed 1`] = `
+Object {
+  "DE1003": Object {
+    "answers": Object {
+      "A2601": Object {
+        "key": "A2601",
+        "nextQuestion": "DE1006",
+        "text": "Deep Vein Thrombosis (DVT)",
+      },
+      "A2604": Object {
+        "key": "A2604",
+        "nextQuestion": "_DE1015",
+        "text": "Pulmonary Embolism (PE)",
+      },
+      "noKey": Object {
+        "key": "noKey",
+        "nextQuestion": "DE1006",
+        "text": null,
+      },
+    },
+    "key": "DE1003",
+    "render": "checkbox",
+    "text": "Which of the following occurred?",
+  },
+  "DE1006": Object {
+    "answers": Object {
+      "A2211": Object {
+        "key": "A2211",
+        "nextQuestion": "DE2027",
+        "text": "Both",
+      },
+      "A2607": Object {
+        "key": "A2607",
+        "nextQuestion": "DE2027",
+        "text": "Upper extremity/upper thorax",
+      },
+      "A2610": Object {
+        "key": "A2610",
+        "nextQuestion": "DE2027",
+        "text": "Lower extremity/pelvis",
+      },
+      "noKey": Object {
+        "key": "noKey",
+        "nextQuestion": "DE2027",
+        "text": null,
+      },
+    },
+    "key": "DE1006",
+    "render": "radio",
+    "text": "What was the location of the Deep Vein Thrombosis (DVT)?",
+  },
+  "DE1015": Object {
+    "answers": Object {
+      "A15": Object {
+        "key": "A15",
+        "nextQuestion": "DE1030",
+        "text": "YES",
+      },
+      "A18": Object {
+        "key": "A18",
+        "nextQuestion": "DE1030",
+        "text": "NO",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "DE1030",
+        "text": "Unknown",
+      },
+      "noKey": Object {
+        "key": "noKey",
+        "nextQuestion": "DE1030",
+        "text": null,
+      },
+    },
+    "key": "DE1015",
+    "render": "radio",
+    "text": "Prior to the onset of the VTE event, was a VTE risk assessment documented?",
+  },
+  "DE1027": Object {
+    "answers": Object {
+      "A15": Object {
+        "key": "A15",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "YES",
+      },
+      "A18": Object {
+        "key": "A18",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "NO",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Unknown",
+      },
+      "noKey": Object {
+        "key": "noKey",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": null,
+      },
+    },
+    "key": "DE1027",
+    "render": "radio",
+    "text": "Prior to the onset of the VTE event, was any physical or mechanical prophylaxis (e.g., graduated compression stockings, intermittent pneumatic compression device, venous foot pumps) applied?",
+  },
+  "DE1030": Object {
+    "answers": Object {
+      "A15": Object {
+        "key": "A15",
+        "nextQuestion": "DE1027",
+        "text": "YES",
+      },
+      "A18": Object {
+        "key": "A18",
+        "nextQuestion": "DE1027",
+        "text": "NO",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "DE1027",
+        "text": "Unknown",
+      },
+      "noKey": Object {
+        "key": "noKey",
+        "nextQuestion": "DE1027",
+        "text": null,
+      },
+    },
+    "key": "DE1030",
+    "render": "radio",
+    "text": "Prior to the onset of the VTE event, was any pharmacological anticoagulant prophylaxis administered?",
+  },
+  "DE105": Object {
+    "answers": Object {
+      "A3009": Object {
+        "key": "A3009",
+        "nextQuestion": "_DE81",
+        "text": "Communication, other than at the time of handover/handoff",
+      },
+      "A3012": Object {
+        "key": "A3012",
+        "nextQuestion": "_DE81",
+        "text": "Handover/handoff",
+      },
+      "A3015": Object {
+        "key": "A3015",
+        "nextQuestion": "_DE81",
+        "text": "Data issues (e.g., availability, accuracy)",
+      },
+      "A3018": Object {
+        "key": "A3018",
+        "nextQuestion": "_DE81",
+        "text": "Environment (e.g., culture of safety, physical surroundings)",
+      },
+      "A3021": Object {
+        "key": "A3021",
+        "nextQuestion": "_DE81",
+        "text": "Human factors (e.g., fatigue, stress, inattention, cognitive factors)",
+      },
+      "A3024": Object {
+        "key": "A3024",
+        "nextQuestion": "_DE81",
+        "text": "Policies and procedures, including clinical protocols (e.g., absence, adequacy, clarity)",
+      },
+      "A3027": Object {
+        "key": "A3027",
+        "nextQuestion": "_DE81",
+        "text": "Staff qualifications (e.g., competence, training)",
+      },
+      "A3030": Object {
+        "key": "A3030",
+        "nextQuestion": "_DE81",
+        "text": "Supervision/support (e.g., clinical, managerial)",
+      },
+      "A3033": Object {
+        "key": "A3033",
+        "nextQuestion": "DE534",
+        "text": "Health Information Technology (HIT)",
+      },
+      "A66": Object {
+        "child": "otherDE105",
+        "key": "A66",
+        "nextQuestion": "_DE81",
+        "text": "Other: Please specify",
+      },
+    },
+    "key": "DE105",
+    "render": "checkbox(required:true)",
+    "text": "What factor(s) contributed to the event?",
+  },
+  "DE112": Object {
+    "answers": Object {
+      "noKey": Object {
+        "key": "noKey",
+        "nextQuestion": "DE113",
+        "text": null,
+      },
+    },
+    "key": "DE112",
+    "render": "textbox(required:true)",
+    "text": "What is the linked event ID?",
+  },
+  "DE113": Object {
+    "answers": Object {
+      "noKey": Object {
+        "key": "noKey",
+        "nextQuestion": "moreLE",
+        "text": null,
+      },
+    },
+    "key": "DE113",
+    "render": "textbox(required:true)",
+    "text": "What is the reason for linking? ",
+  },
+  "DE114": Object {
+    "answers": Object {
+      "A531": Object {
+        "key": "A531",
+        "nextQuestion": "{history.DE3}==A9?{loop.DE21}.isEmpty?review:{loop.DE21}.pop:DE123",
+        "text": "Whole blood",
+      },
+      "A534": Object {
+        "key": "A534",
+        "nextQuestion": "{history.DE3}==A9?{loop.DE21}.isEmpty?review:{loop.DE21}.pop:DE123",
+        "text": "Red blood cells",
+      },
+      "A537": Object {
+        "key": "A537",
+        "nextQuestion": "{history.DE3}==A9?{loop.DE21}.isEmpty?review:{loop.DE21}.pop:DE123",
+        "text": "Platelets",
+      },
+      "A540": Object {
+        "key": "A540",
+        "nextQuestion": "{history.DE3}==A9?{loop.DE21}.isEmpty?review:{loop.DE21}.pop:DE123",
+        "text": "Plasma",
+      },
+      "A543": Object {
+        "key": "A543",
+        "nextQuestion": "{history.DE3}==A9?{loop.DE21}.isEmpty?review:{loop.DE21}.pop:DE123",
+        "text": "Cryoprecipitate",
+      },
+      "A544": Object {
+        "key": "A544",
+        "nextQuestion": "{history.DE3}==A9?{loop.DE21}.isEmpty?review:{loop.DE21}.pop:DE123",
+        "text": "Hematopoietic stem cells",
+      },
+      "A546": Object {
+        "key": "A546",
+        "nextQuestion": "{history.DE3}==A9?{loop.DE21}.isEmpty?review:{loop.DE21}.pop:DE123",
+        "text": "Granulocytes",
+      },
+      "A549": Object {
+        "key": "A549",
+        "nextQuestion": "{history.DE3}==A9?{loop.DE21}.isEmpty?review:{loop.DE21}.pop:DE123",
+        "text": "Lymphocytes",
+      },
+      "A66": Object {
+        "key": "A66",
+        "nextQuestion": "{history.DE3}==A9?{loop.DE21}.isEmpty?review:{loop.DE21}.pop:DE123",
+        "text": "Other: Please specify",
+      },
+      "noKey": Object {
+        "key": "noKey",
+        "nextQuestion": "{history.DE3}==A9?{loop.DE21}.isEmpty?review:{loop.DE21}.pop:DE123",
+        "text": null,
+      },
+    },
+    "key": "DE114",
+    "render": "radio",
+    "text": "What type of blood or blood product was involved in the event or unsafe condition?",
+  },
+  "DE123": Object {
+    "answers": Object {
+      "A585": Object {
+        "key": "A585",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Incorrect patient‬",
+      },
+      "A588": Object {
+        "key": "A588",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Incorrect ABO/Rh type",
+      },
+      "A591": Object {
+        "key": "A591",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Incorrect product (e.g., product not irradiated when it was ordered or red blood cells given when plasma was ordered)",
+      },
+      "A594": Object {
+        "key": "A594",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Incorrect sequence of administration of products‬",
+      },
+      "A597": Object {
+        "key": "A597",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Use of expired or unacceptably stored product(s)",
+      },
+      "A600": Object {
+        "key": "A600",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Incorrect volume (e.g., number of  milliliters or units)",
+      },
+      "A603": Object {
+        "key": "A603",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Incorrect IV fluid (i.e., administered product with incorrect IV fluid)‬",
+      },
+      "A606": Object {
+        "key": "A606",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Incorrect timing (e.g., delay in administration)‬",
+      },
+      "A609": Object {
+        "key": "A609",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Incorrect rate",
+      },
+      "A66": Object {
+        "key": "A66",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Other: Please specify",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Unknown",
+      },
+      "noKey": Object {
+        "key": "noKey",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": null,
+      },
+    },
+    "key": "DE123",
+    "render": "checkbox",
+    "text": "What incorrect action was involved in processing or administering the blood or blood product?",
+  },
+  "DE15": Object {
+    "answers": Object {
+      "noKey": Object {
+        "key": "noKey",
+        "nextQuestion": "DE78",
+        "text": null,
+      },
+    },
+    "key": "DE15",
+    "render": "textbox(required:true)",
+    "text": "Briefly describe the event that occurred or unsafe condition:",
+  },
+  "DE192": Object {
+    "answers": Object {
+      "A867": Object {
+        "key": "A867",
+        "nextQuestion": "DE204",
+        "text": "Unassisted",
+      },
+      "A870": Object {
+        "child": "assistedFall",
+        "key": "A870",
+        "nextQuestion": "DE204",
+        "text": "Assisted (e.g., when patient begins to fall and is assisted to the ground by another person)",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "DE204",
+        "text": "Unknown",
+      },
+    },
+    "key": "DE192",
+    "render": "radio(required : true)",
+    "text": "Was the fall unassisted or assisted?",
+  },
+  "DE2000": Object {
+    "answers": Object {
+      "A2088": Object {
+        "key": "A2088",
+        "nextQuestion": "{loop.DE21}.isEmpty?_review:_{loop.DE21}.pop",
+        "text": "Cardiac or circulatory event",
+      },
+      "A2091": Object {
+        "key": "A2091",
+        "nextQuestion": "{loop.DE21}.isEmpty?_review:_{loop.DE21}.pop",
+        "text": "Central nervous system event",
+      },
+      "A2094": Object {
+        "key": "A2094",
+        "nextQuestion": "{loop.DE21}.isEmpty?_review:_{loop.DE21}.pop",
+        "text": "Renal failure, impairment, or insufficiency",
+      },
+      "A2095": Object {
+        "key": "A2095",
+        "nextQuestion": "DE2003",
+        "text": "Respiratory failure",
+      },
+      "A66": Object {
+        "key": "A66",
+        "nextQuestion": "{loop.DE21}.isEmpty?_review:_{loop.DE21}.pop",
+        "text": "Other: Please specify",
+      },
+      "noKey": Object {
+        "key": "noKey",
+        "nextQuestion": "{loop.DE21}.isEmpty?_review:_{loop.DE21}.pop",
+        "text": null,
+      },
+    },
+    "key": "DE2000",
+    "render": "checkbox",
+    "text": "Which of the following physiologic complication(s) occurred that was not present prior to anesthesia?",
+  },
+  "DE2003": Object {
+    "answers": Object {
+      "A1965": Object {
+        "key": "A1965",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "General anesthesia",
+      },
+      "A1968": Object {
+        "key": "A1968",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Regional anesthesia (e.g., epidural, spinal, or peripheral nerve blocks)",
+      },
+      "A1971": Object {
+        "key": "A1971",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Local or topical anesthesia",
+      },
+      "A1972": Object {
+        "key": "A1972",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Sedation",
+      },
+      "noKey": Object {
+        "key": "noKey",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": null,
+      },
+    },
+    "key": "DE2003",
+    "render": "radio",
+    "text": "Which of the following best describes how the respiratory failure was manifested?",
+  },
+  "DE2006": Object {
+    "answers": Object {
+      "A1965": Object {
+        "key": "A1965",
+        "nextQuestion": "DE522",
+        "text": "General anesthesia",
+      },
+      "A1968": Object {
+        "key": "A1968",
+        "nextQuestion": "DE522",
+        "text": "Regional anesthesia (e.g., epidural, spinal, or peripheral nerve blocks)",
+      },
+      "A1971": Object {
+        "key": "A1971",
+        "nextQuestion": "DE522",
+        "text": "Local or topical anesthesia",
+      },
+      "A1972": Object {
+        "key": "A1972",
+        "nextQuestion": "DE522",
+        "text": "Sedation",
+      },
+      "noKey": Object {
+        "key": "noKey",
+        "nextQuestion": "DE522",
+        "text": null,
+      },
+    },
+    "key": "DE2006",
+    "render": "checkbox",
+    "text": "What type(s) of anesthesia and/or sedation was used?",
+  },
+  "DE2012": Object {
+    "answers": Object {
+      "A1698": Object {
+        "key": "A1698",
+        "nextQuestion": "DE420",
+        "text": "Stage 1",
+      },
+      "A1701": Object {
+        "key": "A1701",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Stage 2",
+      },
+      "A1716": Object {
+        "key": "A1716",
+        "nextQuestion": "DE420",
+        "text": "Not present",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "DE420",
+        "text": "Unknown",
+      },
+    },
+    "key": "DE2012",
+    "render": "radio(required : true)",
+    "text": "What was the status on admission of the Stage 2 pressure injury? ",
+  },
+  "DE2015": Object {
+    "answers": Object {
+      "A15": Object {
+        "key": "A15",
+        "nextQuestion": "DE432",
+        "text": "YES",
+      },
+      "A18": Object {
+        "key": "A18",
+        "nextQuestion": "DE432",
+        "text": "NO",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "DE432",
+        "text": "Unknown",
+      },
+    },
+    "key": "DE2015",
+    "render": "radio(required : true)",
+    "text": "Was a pressure injury risk assessment documented prior to the event?",
+  },
+  "DE2018": Object {
+    "answers": Object {
+      "A3054": Object {
+        "key": "A3054",
+        "nextQuestion": "DE461",
+        "text": "Cardiac or circulatory event",
+      },
+      "A3057": Object {
+        "key": "A3057",
+        "nextQuestion": "DE461",
+        "text": "Central nervous system event",
+      },
+      "A3060": Object {
+        "key": "A3060",
+        "nextQuestion": "DE461",
+        "text": "Renal failure, impairment, or insufficiency",
+      },
+      "A3063": Object {
+        "key": "A3063",
+        "nextQuestion": "DE2021",
+        "text": "Respiratory failure",
+      },
+      "A66": Object {
+        "child": "otherDE2018",
+        "key": "A66",
+        "nextQuestion": "DE461",
+        "text": "Other: Please specify",
+      },
+    },
+    "key": "DE2018",
+    "render": "radio(required : true)",
+    "text": "Which of the following physiologic complication(s) occurred that was not present prior to surgery?",
+  },
+  "DE2021": Object {
+    "answers": Object {
+      "A3066": Object {
+        "key": "A3066",
+        "nextQuestion": "DE461",
+        "text": "Prolonged ventilator support following surgery",
+      },
+      "A3069": Object {
+        "key": "A3069",
+        "nextQuestion": "DE461",
+        "text": "Use of ventilator post-operatively only",
+      },
+      "A3072": Object {
+        "key": "A3072",
+        "nextQuestion": "DE461",
+        "text": "Incorrect procedure",
+      },
+      "A66": Object {
+        "child": "otherDE2021",
+        "key": "A66",
+        "nextQuestion": "DE461",
+        "text": "Other: Please specify",
+      },
+    },
+    "key": "DE2021",
+    "render": "radio(required : true)",
+    "text": "Which of the following best describes how the respiratory failure was manifested?",
+  },
+  "DE2024": Object {
+    "answers": Object {
+      "A1005": Object {
+        "key": "A1005",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "None",
+      },
+      "A3075": Object {
+        "key": "A3075",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "General anesthesia",
+      },
+      "A3078": Object {
+        "key": "A3078",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Regional anesthesia (e.g., epidural, spinal, or peripheral nerve blocks)",
+      },
+      "A3081": Object {
+        "key": "A3081",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Local or topical anesthesia",
+      },
+      "A3084": Object {
+        "key": "A3084",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Sedation",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Unknown",
+      },
+    },
+    "key": "DE2024",
+    "render": "radio(required : true)",
+    "text": "Which type(s) of anesthesia and/or sedation were used?",
+  },
+  "DE2027": Object {
+    "answers": Object {
+      "A15": Object {
+        "key": "A15",
+        "nextQuestion": "DE1015",
+        "text": "YES",
+      },
+      "A18": Object {
+        "key": "A18",
+        "nextQuestion": "DE1015",
+        "text": "NO",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "DE1015",
+        "text": "Unknown",
+      },
+      "noKey": Object {
+        "key": "noKey",
+        "nextQuestion": "DE1015",
+        "text": null,
+      },
+    },
+    "key": "DE2027",
+    "render": "radio",
+    "text": "Was an intravenous (IV) catheter present at the site of the Deep Vein Thrombosis (DVT)?",
+  },
+  "DE204": Object {
+    "answers": Object {
+      "A66": Object {
+        "child": "otherDE204",
+        "key": "A66",
+        "nextQuestion": "DE210",
+        "text": "Other: Please Specify",
+      },
+      "A900": Object {
+        "key": "A900",
+        "nextQuestion": "DE210",
+        "text": "Dislocation",
+      },
+      "A903": Object {
+        "key": "A903",
+        "nextQuestion": "DE210",
+        "text": "Fracture",
+      },
+      "A905": Object {
+        "key": "A905",
+        "nextQuestion": "DE210",
+        "text": "Skin tear, avulsion, hematoma or significant bruising",
+      },
+      "A906": Object {
+        "key": "A906",
+        "nextQuestion": "DE210",
+        "text": "Intracranial injury",
+      },
+      "A909": Object {
+        "key": "A909",
+        "nextQuestion": "DE210",
+        "text": "Laceration requiring suturesg",
+      },
+      "A910": Object {
+        "key": "A910",
+        "nextQuestion": "DE210",
+        "text": "No injury",
+      },
+    },
+    "key": "DE204",
+    "render": "radio(required : true)",
+    "text": "What was the most severe type of injury sustained by the patient as a result of the fall?",
+  },
+  "DE21": Object {
+    "answers": Object {
+      "A41": Object {
+        "key": "A41",
+        "nextQuestion": "+DE2006",
+        "text": "Anestheia",
+      },
+      "A42": Object {
+        "key": "A42",
+        "nextQuestion": "+DE114",
+        "text": "Blood or Blood Product",
+      },
+      "A45": Object {
+        "key": "A45",
+        "nextQuestion": "+DE141",
+        "text": "Device or Medical/Surgical Supply",
+      },
+      "A48": Object {
+        "key": "A48",
+        "nextQuestion": "+DE192",
+        "text": "Fall",
+      },
+      "A51": Object {
+        "key": "A51",
+        "nextQuestion": "+review",
+        "text": "Healthcare-associated Infection‬",
+      },
+      "A54": Object {
+        "key": "A54",
+        "nextQuestion": "+DE270",
+        "text": "Medication or Other Substance",
+      },
+      "A57": Object {
+        "key": "A57",
+        "nextQuestion": "+DE363",
+        "text": "Perinatal",
+      },
+      "A60": Object {
+        "key": "A60",
+        "nextQuestion": "+DE408",
+        "text": "Pressure injury",
+      },
+      "A61": Object {
+        "key": "A61",
+        "nextQuestion": "+DE513",
+        "text": "Surgery, includes invasive procedure",
+      },
+      "A64": Object {
+        "key": "A64",
+        "nextQuestion": "+DE1003",
+        "text": "Venous Thromboembolism",
+      },
+      "A66": Object {
+        "child": "otherDE21",
+        "key": "A66",
+        "nextQuestion": "+DE47",
+        "text": "Other: Please specify",
+      },
+    },
+    "key": "DE21",
+    "render": "checkbox(required:true)",
+    "text": "Which of the following categories are associated with the event or unsafe condition?",
+  },
+  "DE210": Object {
+    "answers": Object {
+      "A15": Object {
+        "key": "A15",
+        "nextQuestion": "DE213",
+        "text": "YES",
+      },
+      "A18": Object {
+        "key": "A18",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "NO",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Unknown",
+      },
+    },
+    "key": "DE210",
+    "render": "radio(required : true)",
+    "text": "Prior to the fall, was a fall risk assessment documented?‬",
+  },
+  "DE213": Object {
+    "answers": Object {
+      "A15": Object {
+        "key": "A15",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "YES",
+      },
+      "A18": Object {
+        "key": "A18",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "NO",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Unknown",
+      },
+    },
+    "key": "DE213",
+    "render": "radio(required : true)",
+    "text": "Was the patient determined to be at increased risk for a fall?",
+  },
+  "DE3": Object {
+    "answers": Object {
+      "A3": Object {
+        "key": "A3",
+        "nextQuestion": "DE9",
+        "text": "Incident: A patient safety event that reached the patient, whether or not the patient was harmed.",
+      },
+      "A6": Object {
+        "key": "A6",
+        "nextQuestion": "DE9",
+        "text": "Near Miss: A patient safety event that did not reach the patient.",
+      },
+      "A9": Object {
+        "key": "A9",
+        "nextQuestion": "DE15",
+        "text": "Unsafe Condition: Any circumstance that increases the probability of a patient safety event.",
+      },
+    },
+    "key": "DE3",
+    "render": "radio(required:true)",
+    "text": "What is being reported?",
+  },
+  "DE30": Object {
+    "answers": Object {
+      "noKey": Object {
+        "key": "noKey",
+        "nextQuestion": "DE3",
+        "text": null,
+      },
+    },
+    "key": "DE30",
+    "render": "datepicker(required:true)",
+    "text": "What is the date the Common Formats patient safety module was completed?",
+  },
+  "DE353": Object {
+    "answers": Object {
+      "A1516": Object {
+        "key": "A1516",
+        "nextQuestion": "{history.DE353}==A1516?DE354:DE354",
+        "text": "Birthing process (labor and delivery)",
+      },
+      "A1517": Object {
+        "key": "A1517",
+        "nextQuestion": "{history.DE353}==A1516?DE354:DE354",
+        "text": "Intrauterine procedure (prenatal)",
+      },
+      "A342": Object {
+        "child": "otherDE353",
+        "key": "A342",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Other",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Unknown",
+      },
+    },
+    "key": "DE353",
+    "render": "radio(required : true)",
+    "text": "Which of the following did the event involve?",
+  },
+  "DE354": Object {
+    "answers": Object {
+      "A1518": Object {
+        "key": "A1518",
+        "nextQuestion": "DE381",
+        "text": "Mother",
+      },
+      "A1519": Object {
+        "key": "A1519",
+        "nextQuestion": "_DE390",
+        "text": "Fetus(es)",
+      },
+      "A1525": Object {
+        "key": "A1525",
+        "nextQuestion": "_DE399",
+        "text": "Neonate(s)",
+      },
+    },
+    "key": "DE354",
+    "render": "checkbox(required : true)",
+    "text": "Who was affected by the perinatal event?",
+  },
+  "DE363": Object {
+    "answers": Object {
+      "noKey": Object {
+        "key": "noKey",
+        "nextQuestion": "DE353",
+        "text": null,
+      },
+    },
+    "key": "DE363",
+    "render": "textbox(required : true)",
+    "text": "Immediately prior to birth, or at the time of the intrauterine procedure (prenatal), what was the best estimate of completed weeks of gestation?",
+  },
+  "DE366": Object {
+    "answers": Object {
+      "A15": Object {
+        "key": "A15",
+        "nextQuestion": "DE372",
+        "text": "YES",
+      },
+      "A18": Object {
+        "key": "A18",
+        "nextQuestion": "DE372",
+        "text": "NO",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "DE372",
+        "text": "Unknown",
+      },
+    },
+    "key": "DE366",
+    "render": "radio(required : true)",
+    "text": "Was the labor induced or augmented",
+  },
+  "DE372": Object {
+    "answers": Object {
+      "200146002": Object {
+        "key": "200146002",
+        "nextQuestion": "DE375",
+        "text": "Cesarean section",
+      },
+      "289259007": Object {
+        "key": "289259007",
+        "nextQuestion": "DE375",
+        "text": "Vaginal Delivery",
+      },
+      "A1569": Object {
+        "key": "A1569",
+        "nextQuestion": "DE375",
+        "text": "Trial of labor followed by Cesarean birth",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "DE375",
+        "text": "Unknown",
+      },
+    },
+    "key": "DE372",
+    "render": "radio(required : true)",
+    "text": "What was the mode of birth",
+  },
+  "DE375": Object {
+    "answers": Object {
+      "A15": Object {
+        "key": "A15",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "YES",
+      },
+      "A18": Object {
+        "key": "A18",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "NO",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Unknown",
+      },
+    },
+    "key": "DE375",
+    "render": "radio(required : true)",
+    "text": "Was the vaginal birth with instrumentation assistance",
+  },
+  "DE381": Object {
+    "answers": Object {
+      "A1596": Object {
+        "key": "A1596",
+        "nextQuestion": "{history.DE354}==A1519?DE390:{history.DE354}==A1525?DE399:{history.DE353}==A1516?DE394:{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Death",
+      },
+      "A1599": Object {
+        "key": "A1599",
+        "nextQuestion": "{history.DE354}==A1519?DE390:{history.DE354}==A1525?DE399:{history.DE353}==A1516?DE394:{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Mother",
+      },
+      "A1602": Object {
+        "key": "A1602",
+        "nextQuestion": "{history.DE354}==A1519?DE390:{history.DE354}==A1525?DE399:{history.DE353}==A1516?DE394:{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Eclampsia",
+      },
+      "A1605": Object {
+        "key": "A1605",
+        "nextQuestion": "{history.DE354}==A1519?DE390:{history.DE354}==A1525?DE399:{history.DE353}==A1516?DE394:{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Magnesium toxicity",
+      },
+      "A1608": Object {
+        "key": "A1608",
+        "nextQuestion": "{history.DE354}==A1519?DE390:{history.DE354}==A1525?DE399:{history.DE353}==A1516?DE394:{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Infection",
+      },
+      "A1611": Object {
+        "key": "A1611",
+        "nextQuestion": "{history.DE354}==A1519?DE390:{history.DE354}==A1525?DE399:{history.DE353}==A1516?DE394:{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Injury to body part, organ",
+      },
+      "A66": Object {
+        "child": "otherDE381",
+        "key": "A66",
+        "nextQuestion": "{history.DE354}==A1519?DE390:{history.DE354}==A1525?DE399:{history.DE353}==A1516?DE394:{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Other: Please specify",
+      },
+    },
+    "key": "DE381",
+    "render": "checkbox(required : true)",
+    "text": "What is the type of maternal adverse outcome",
+  },
+  "DE390": Object {
+    "answers": Object {
+      "A1644": Object {
+        "key": "A1644",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Unexpected death",
+      },
+      "A1647": Object {
+        "key": "A1647",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Injury",
+      },
+    },
+    "key": "DE390",
+    "render": "radio(required : true)",
+    "text": "Type of fetus adverse outcome",
+  },
+  "DE394": Object {
+    "answers": Object {
+      "noKey": Object {
+        "key": "noKey",
+        "nextQuestion": "DE366",
+        "text": null,
+      },
+    },
+    "key": "DE394",
+    "render": "textbox(required : true)",
+    "text": "What is the Neonate/stillborn birthweight",
+  },
+  "DE399": Object {
+    "answers": Object {
+      "A1644": Object {
+        "key": "A1644",
+        "nextQuestion": "DE394",
+        "text": "Unexpected death",
+      },
+      "A1660": Object {
+        "key": "A1660",
+        "nextQuestion": "DE394",
+        "text": "Birth trauma/injury ",
+      },
+      "A1662": Object {
+        "key": "A1662",
+        "nextQuestion": "DE394",
+        "text": "Five-minute Apgar less than 7 and birthweight greater than 2500 grams",
+      },
+      "A1665": Object {
+        "key": "A1665",
+        "nextQuestion": "DE394",
+        "text": "Hypoxic ischemic encephalopathy (HIE)",
+      },
+      "A1668": Object {
+        "key": "A1668",
+        "nextQuestion": "DE394",
+        "text": "Seizure(s)",
+      },
+      "A1671": Object {
+        "key": "A1671",
+        "nextQuestion": "DE394",
+        "text": "Infection (e.g., group B strep)",
+      },
+      "A66": Object {
+        "child": "otherDE399",
+        "key": "A66",
+        "nextQuestion": "DE394",
+        "text": "Other: Please specify",
+      },
+    },
+    "key": "DE399",
+    "render": "radio(required : true)",
+    "text": "Which adverse outcome(s) did the neonate sustain?",
+  },
+  "DE408": Object {
+    "answers": Object {
+      "A1698": Object {
+        "key": "A1698",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Stage 1",
+      },
+      "A1701": Object {
+        "key": "A1701",
+        "nextQuestion": "DE447",
+        "text": "Stage 2",
+      },
+      "A1704": Object {
+        "key": "A1704",
+        "nextQuestion": "DE447",
+        "text": "Stage 3",
+      },
+      "A1707": Object {
+        "key": "A1707",
+        "nextQuestion": "DE447",
+        "text": "Stage 4",
+      },
+      "A1710": Object {
+        "key": "A1710",
+        "nextQuestion": "DE447",
+        "text": "Unstageable",
+      },
+      "A1711": Object {
+        "key": "A1711",
+        "nextQuestion": "DE447",
+        "text": "Mucosal pressure injury not present on admission.",
+      },
+      "A1713": Object {
+        "key": "A1713",
+        "nextQuestion": "DE447",
+        "text": "Deep Tissue Pressure Injury (DTPI)",
+      },
+      "A66": Object {
+        "child": "otherDE408",
+        "key": "A66",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Other: Please specify",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Unknown",
+      },
+    },
+    "key": "DE408",
+    "render": "radio(required : true)",
+    "text": "What was the most advanced stage/type of the pressure injury or deep tissue pressure injury (DTPI) being reported? ",
+  },
+  "DE411": Object {
+    "answers": Object {
+      "A1698": Object {
+        "key": "A1698",
+        "nextQuestion": "DE420",
+        "text": "Stage 1",
+      },
+      "A1713": Object {
+        "key": "A1713",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Deep Tissue Pressure Injury (DTPI)",
+      },
+      "A1716": Object {
+        "key": "A1716",
+        "nextQuestion": "DE420",
+        "text": "Not present",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "DE420",
+        "text": "Unknown",
+      },
+    },
+    "key": "DE411",
+    "render": "radio(required : true)",
+    "text": "What was the status on admission of the deep tissue pressure injury (DTPI)?",
+  },
+  "DE414": Object {
+    "answers": Object {
+      "A1698": Object {
+        "key": "A1698",
+        "nextQuestion": "DE420",
+        "text": "Stage 1",
+      },
+      "A1701": Object {
+        "key": "A1701",
+        "nextQuestion": "DE420",
+        "text": "Stage 2",
+      },
+      "A1704": Object {
+        "key": "A1704",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Stage 3",
+      },
+      "A1707": Object {
+        "key": "A1707",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Stage 4",
+      },
+      "A1710": Object {
+        "key": "A1710",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Unstageable",
+      },
+      "A1713": Object {
+        "key": "A1713",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Deep Tissue Pressure Injury (DTPI)",
+      },
+      "A1716": Object {
+        "key": "A1716",
+        "nextQuestion": "DE420",
+        "text": "Not present",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "DE420",
+        "text": "Unknown",
+      },
+    },
+    "key": "DE414",
+    "render": "radio(required : true)",
+    "text": "What was the status on admission of the Stage 3, 4, or unstageable pressure injury that you are reporting? ",
+  },
+  "DE420": Object {
+    "answers": Object {
+      "A15": Object {
+        "key": "A15",
+        "nextQuestion": "DE2015",
+        "text": "YES",
+      },
+      "A18": Object {
+        "key": "A18",
+        "nextQuestion": "DE2015",
+        "text": "NO",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "DE2015",
+        "text": "Unknown",
+      },
+    },
+    "key": "DE420",
+    "render": "radio(required : true)",
+    "text": "Was the admission skin inspection documented?",
+  },
+  "DE432": Object {
+    "answers": Object {
+      "A15": Object {
+        "key": "A15",
+        "nextQuestion": "DE438",
+        "text": "YES",
+      },
+      "A18": Object {
+        "key": "A18",
+        "nextQuestion": "DE438",
+        "text": "NO",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "DE438",
+        "text": "Unknown",
+      },
+    },
+    "key": "DE432",
+    "render": "radio(required : true)",
+    "text": "Was any pressure injury preventive intervention implemented?",
+  },
+  "DE438": Object {
+    "answers": Object {
+      "A15": Object {
+        "key": "A15",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "YES",
+      },
+      "A18": Object {
+        "key": "A18",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "NO",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Unknown",
+      },
+    },
+    "key": "DE438",
+    "render": "radio(required : true)",
+    "text": "Was the use of a device, appliance, or equipment involved in the development or advancement of the pressure injury?",
+  },
+  "DE447": Object {
+    "answers": Object {
+      "A15": Object {
+        "key": "A15",
+        "nextQuestion": "DE450",
+        "text": "YES",
+      },
+      "A18": Object {
+        "key": "A18",
+        "nextQuestion": "{history.DE408}==A1701?DE2012:{history.DE408}==A1713?DE411:{history.DE408}==A1711?DE420:DE414",
+        "text": "NO",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "{history.DE408}==A1701?DE2012:{history.DE408}==A1713?DE411:{history.DE408}==A1711?DE420:DE414",
+        "text": "Unknown",
+      },
+    },
+    "key": "DE447",
+    "render": "radio(required : true)",
+    "text": "Development of secondary morbidity during stay",
+  },
+  "DE450": Object {
+    "answers": Object {
+      "A15": Object {
+        "key": "A15",
+        "nextQuestion": "{history.DE408}==A1701?DE2012:{history.DE408}==A1713?DE411:{history.DE408}==A1711?DE420:DE414",
+        "text": "YES",
+      },
+      "A18": Object {
+        "key": "A18",
+        "nextQuestion": "{history.DE408}==A1701?DE2012:{history.DE408}==A1713?DE411:{history.DE408}==A1711?DE420:DE414",
+        "text": "NO",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "{history.DE408}==A1701?DE2012:{history.DE408}==A1713?DE411:{history.DE408}==A1711?DE420:DE414",
+        "text": "Unknown",
+      },
+    },
+    "key": "DE450",
+    "render": "radio(required : true)",
+    "text": "Secondary morbidity attributed to pressure injury or DTPI",
+  },
+  "DE461": Object {
+    "answers": Object {
+      "noKey": Object {
+        "key": "noKey",
+        "nextQuestion": "DE2024",
+        "text": null,
+      },
+    },
+    "key": "DE461",
+    "render": "textbox(required : true)",
+    "text": "What was the description of the procedure associated with the event?",
+  },
+  "DE513": Object {
+    "answers": Object {
+      "A2172": Object {
+        "key": "A2172",
+        "nextQuestion": "DE461",
+        "text": "Surgical site infection",
+      },
+      "A2175": Object {
+        "key": "A2175",
+        "nextQuestion": "DE461",
+        "text": "Bleeding requiring return to the operating room",
+      },
+      "A2178": Object {
+        "key": "A2178",
+        "nextQuestion": "DE516",
+        "text": "Burn and/or operating room fire",
+      },
+      "A2179": Object {
+        "key": "A2179",
+        "nextQuestion": "DE461",
+        "text": "Retained surgical Item",
+      },
+      "A2181": Object {
+        "key": "A2181",
+        "nextQuestion": "DE519",
+        "text": "Incorrect surgical or invasive procedure",
+      },
+      "A2184": Object {
+        "key": "A2184",
+        "nextQuestion": "DE461",
+        "text": "Iatrogenic pneumothorax",
+      },
+      "A2187": Object {
+        "key": "A2187",
+        "nextQuestion": "DE461",
+        "text": "Unintended laceration or puncture",
+      },
+      "A2190": Object {
+        "key": "A2190",
+        "nextQuestion": "DE461",
+        "text": "Dehiscence, flap or wound failure or disruption, or graft failure",
+      },
+      "A2193": Object {
+        "key": "A2193",
+        "nextQuestion": "DE461",
+        "text": "Unintended blockage, obstruction, or ligation",
+      },
+      "A2196": Object {
+        "key": "A2196",
+        "nextQuestion": "DE461",
+        "text": "Unplanned removal of organ",
+      },
+      "A2199": Object {
+        "key": "A2199",
+        "nextQuestion": "DE461",
+        "text": "Air embolus",
+      },
+      "A2200": Object {
+        "key": "A2200",
+        "nextQuestion": "DE2018",
+        "text": "Physiologic complication not present prior to surgery",
+      },
+      "A66": Object {
+        "child": "otherDE513",
+        "key": "A66",
+        "nextQuestion": "DE461",
+        "text": "Other: Please specify",
+      },
+    },
+    "key": "DE513",
+    "render": "radio(required : true)",
+    "text": "What are the characteristics of the surgical event?",
+  },
+  "DE516": Object {
+    "answers": Object {
+      "A2205": Object {
+        "key": "A2205",
+        "nextQuestion": "DE461",
+        "text": "Burn",
+      },
+      "A2208": Object {
+        "key": "A2208",
+        "nextQuestion": "DE461",
+        "text": "Operating room fire",
+      },
+      "A2211": Object {
+        "key": "A2211",
+        "nextQuestion": "DE461",
+        "text": "Both",
+      },
+    },
+    "key": "DE516",
+    "render": "radio(required : true)",
+    "text": "Was the surgical event a burn, operating room fire, or both?",
+  },
+  "DE519": Object {
+    "answers": Object {
+      "A2217": Object {
+        "key": "A2217",
+        "nextQuestion": "DE461",
+        "text": "Incorrect side",
+      },
+      "A2220": Object {
+        "key": "A2220",
+        "nextQuestion": "DE461",
+        "text": "Incorrect site",
+      },
+      "A2223": Object {
+        "key": "A2223",
+        "nextQuestion": "DE461",
+        "text": "Incorrect procedure",
+      },
+    },
+    "key": "DE519",
+    "render": "radio(required : true)",
+    "text": "Incorrect surgical or invasive procedure",
+  },
+  "DE522": Object {
+    "answers": Object {
+      "A2235": Object {
+        "key": "A2235",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Dental injury",
+      },
+      "A2238": Object {
+        "key": "A2238",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Ocular injury",
+      },
+      "A2241": Object {
+        "key": "A2241",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Peripheral nerve injury",
+      },
+      "A2244": Object {
+        "key": "A2244",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Awareness (during general anesthesia)‬",
+      },
+      "A2248": Object {
+        "key": "A2248",
+        "nextQuestion": "DE2000",
+        "text": "Physiologic complication not present prior to anesthesia",
+      },
+      "A2256": Object {
+        "key": "A2256",
+        "nextQuestion": "DE525",
+        "text": "Difficulty managing airway",
+      },
+      "A66": Object {
+        "key": "A66",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Other: Please Specify",
+      },
+    },
+    "key": "DE522",
+    "render": "radio(required:true)",
+    "text": "Which of the following best characterizes the anesthesia event?",
+  },
+  "DE525": Object {
+    "answers": Object {
+      "A2262": Object {
+        "key": "A2262",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Difficulty during tracheal intubation‬",
+      },
+      "A2265": Object {
+        "key": "A2265",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Difficulty maintaining airway during procedure‬",
+      },
+      "A2268": Object {
+        "key": "A2268",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Esophageal intubation‬",
+      },
+      "A2271": Object {
+        "key": "A2271",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Re-intubation, following extubation, in the operating or recovery room‬",
+      },
+      "A66": Object {
+        "key": "A66",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": "Other: Please specify",
+      },
+      "noKey": Object {
+        "key": "noKey",
+        "nextQuestion": "{loop.DE21}.isEmpty?review:{loop.DE21}.pop",
+        "text": null,
+      },
+    },
+    "key": "DE525",
+    "render": "radio",
+    "text": "Which of the following best characterizes the difficulty managing the airway?",
+  },
+  "DE534": Object {
+    "answers": Object {
+      "A2311": Object {
+        "key": "A2311",
+        "nextQuestion": "DE81",
+        "text": "Radiology/diagnostic imaging system, including picture archiving and communications system (PACS)",
+      },
+      "A2316": Object {
+        "key": "A2316",
+        "nextQuestion": "DE81",
+        "text": "Administrative/billing or practice management system (e.g., master patient index, registration/appointment scheduling system, coding/billing system)",
+      },
+      "A2319": Object {
+        "key": "A2319",
+        "nextQuestion": "DE81",
+        "text": "Automated dispensing system",
+      },
+      "A2322": Object {
+        "key": "A2322",
+        "nextQuestion": "DE81",
+        "text": "Electronic health record (EHR) or component of EHR (e.g., CPOE system, pharmacy system, e-MAR, clinical documentation system, [CDS])",
+      },
+      "A2325": Object {
+        "key": "A2325",
+        "nextQuestion": "DE81",
+        "text": "Human interface device (e.g., keyboard, mouse, touchscreen, speech recognition system, monitor/display, printer)",
+      },
+      "A2328": Object {
+        "key": "A2328",
+        "nextQuestion": "DE81",
+        "text": "Laboratory information system (LIS), including microbiology, and pathology systems",
+      },
+      "A66": Object {
+        "child": "otherDE534",
+        "key": "A66",
+        "nextQuestion": "DE81",
+        "text": "Other: Please specify",
+      },
+    },
+    "key": "DE534",
+    "render": "radio(required:true)",
+    "text": "Which of the following best characterizes the type of HIT system or device related to the event?",
+  },
+  "DE78": Object {
+    "answers": Object {
+      "A249": Object {
+        "key": "A249",
+        "nextQuestion": "{history.DE3}==A9?DE81:DE105",
+        "text": "Inpatient general care area (e.g., medical/ surgical unit)",
+      },
+      "A252": Object {
+        "key": "A252",
+        "nextQuestion": "{history.DE3}==A9?DE81:DE105",
+        "text": "Special care area (e.g., ICU, CCU, NICU)",
+      },
+      "A255": Object {
+        "key": "A255",
+        "nextQuestion": "{history.DE3}==A9?DE81:DE105",
+        "text": "Labor and delivery‬",
+      },
+      "A258": Object {
+        "key": "A258",
+        "nextQuestion": "{history.DE3}==A9?DE81:DE105",
+        "text": "Operating room or procedure area (e.g., cardiac catheter lab, endoscopy area), including PACU or recovery area",
+      },
+      "A261": Object {
+        "key": "A261",
+        "nextQuestion": "{history.DE3}==A9?DE81:DE105",
+        "text": "Radiology/imaging department, including onsite mobile units",
+      },
+      "A264": Object {
+        "key": "A264",
+        "nextQuestion": "{history.DE3}==A9?DE81:DE105",
+        "text": "Pharmacy‬",
+      },
+      "A265": Object {
+        "key": "A265",
+        "nextQuestion": "{history.DE3}==A9?DE81:DE105",
+        "text": "Laboratory, including pathology department",
+      },
+      "A266": Object {
+        "key": "A266",
+        "nextQuestion": "{history.DE3}==A9?DE81:DE105",
+        "text": "Blood bank",
+      },
+      "A270": Object {
+        "key": "A270",
+        "nextQuestion": "{history.DE3}==A9?DE81:DE105",
+        "text": "Emergency department‬",
+      },
+      "A273": Object {
+        "key": "A273",
+        "nextQuestion": "{history.DE3}==A9?DE81:DE105",
+        "text": "Other area within the facility‬",
+      },
+      "A276": Object {
+        "key": "A276",
+        "nextQuestion": "{history.DE3}==A9?DE81:DE105",
+        "text": "Outpatient care area",
+      },
+      "A279": Object {
+        "key": "A279",
+        "nextQuestion": "{history.DE3}==A9?DE81:DE105",
+        "text": "Outside area (i.e., grounds of this facility)‬",
+      },
+      "MANY": Object {
+        "key": "MANY",
+        "nextQuestion": "{history.DE3}==A9?DE81:DE105",
+        "text": "Valid CDC Location Code",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "{history.DE3}==A9?DE81:DE105",
+        "text": "Unknown",
+      },
+    },
+    "key": "DE78",
+    "render": "radio(required:true)",
+    "text": "Where did the event or unsafe condition occur?",
+  },
+  "DE81": Object {
+    "answers": Object {
+      "A288": Object {
+        "key": "A288",
+        "nextQuestion": "DE84",
+        "text": "Healthcare professional‬",
+      },
+      "A291": Object {
+        "key": "A291",
+        "nextQuestion": "{history.DE3}==A3?DE21:numOfLE",
+        "text": "Healthcare worker, including nursing assistant, patient transport/retrieval personnel, assistant/orderly, clerical/administrative personnel, interpreter/translator, technical/laboratory personnel, pastoral care personnel, biomedical engineer, housekeeping, maintenance, patient care assistant, or administrator/manager",
+      },
+      "A294": Object {
+        "key": "A294",
+        "nextQuestion": "{history.DE3}==A3?DE21:numOfLE",
+        "text": "Emergency service personnel, including police officer, fire fighter, or other emergency service officer",
+      },
+      "A297": Object {
+        "key": "A297",
+        "nextQuestion": "{history.DE3}==A3?DE21:numOfLE",
+        "text": "Patient, family member, volunteer, caregiver, or home assistant",
+      },
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "{history.DE3}==A3?DE21:numOfLE",
+        "text": "Unknown",
+      },
+    },
+    "key": "DE81",
+    "render": "radio(required:true)",
+    "text": "Who first reported the event or unsafe condition?",
+  },
+  "DE84": Object {
+    "answers": Object {
+      "A303": Object {
+        "key": "A303",
+        "nextQuestion": "{history.DE3}==A3?DE21:numOfLE",
+        "text": "Doctor, dentist (including student)‬",
+      },
+      "A306": Object {
+        "key": "A306",
+        "nextQuestion": "{history.DE3}==A3?DE21:numOfLE",
+        "text": "Nurse, nurse practitioner, physician assistant (including student or trainee)‬",
+      },
+      "A309": Object {
+        "key": "A309",
+        "nextQuestion": "{history.DE3}==A3?DE21:numOfLE",
+        "text": "Pharmacist, pharmacy technician (including student) ‬",
+      },
+      "A312": Object {
+        "key": "A312",
+        "nextQuestion": "{history.DE3}==A3?DE21:numOfLE",
+        "text": "Allied health professional (including paramedic, speech, physical and occupational therapist, dietician)",
+      },
+    },
+    "key": "DE84",
+    "render": "radio(required:true)",
+    "text": "‭What type of healthcare professional made the initial report? ‬",
+  },
+  "DE9": Object {
+    "answers": Object {
+      "UNK": Object {
+        "key": "UNK",
+        "nextQuestion": "DE15",
+        "text": "Unknown",
+      },
+      "noKey": Object {
+        "key": "noKey",
+        "nextQuestion": "DE15",
+        "text": null,
+      },
+    },
+    "key": "DE9",
+    "render": "datepicker(min: 01/01/2018, showTimeSelect: true, required:true)&radio(answers: [\\"UNK\\"], required:true)",
+    "text": "What is the event discovery date/time?",
+  },
+  "assistedFall": Object {
+    "answers": Object {
+      "noKey": Object {
+        "key": "noKey",
+        "text": null,
+      },
+    },
+    "key": "assistedFall",
+    "render": "textbox(required : true)",
+    "text": "",
+  },
+  "moreLE": Object {
+    "answers": Object {
+      "NO": Object {
+        "key": "NO",
+        "nextQuestion": "DE21",
+        "text": "NO",
+      },
+      "YES": Object {
+        "key": "YES",
+        "nextQuestion": "DE112",
+        "text": "YES",
+      },
+    },
+    "key": "moreLE",
+    "render": "radio(required:true)",
+    "text": "Are there any additional linked events",
+  },
+  "numOfLE": Object {
+    "answers": Object {
+      "noKey": Object {
+        "key": "noKey",
+        "nextQuestion": "DE21",
+        "text": null,
+      },
+    },
+    "key": "numOfLE",
+    "render": "fieldarray(children:[DE112,DE113], required:true)",
+    "text": "‭Do you have any linked events‬",
+  },
+  "otherDE105": Object {
+    "answers": Object {
+      "noKey": Object {
+        "key": "noKey",
+        "text": null,
+      },
+    },
+    "key": "otherDE105",
+    "render": "textbox(required : true)",
+    "text": "",
+  },
+  "otherDE2018": Object {
+    "answers": Object {
+      "noKey": Object {
+        "key": "noKey",
+        "text": null,
+      },
+    },
+    "key": "otherDE2018",
+    "render": "textbox(required : true)",
+    "text": "",
+  },
+  "otherDE2021": Object {
+    "answers": Object {
+      "noKey": Object {
+        "key": "noKey",
+        "text": null,
+      },
+    },
+    "key": "otherDE2021",
+    "render": "textbox(required : true)",
+    "text": "",
+  },
+  "otherDE204": Object {
+    "answers": Object {
+      "noKey": Object {
+        "key": "noKey",
+        "text": null,
+      },
+    },
+    "key": "otherDE204",
+    "render": "textbox(required : true)",
+    "text": "",
+  },
+  "otherDE21": Object {
+    "answers": Object {
+      "noKey": Object {
+        "key": "noKey",
+        "text": null,
+      },
+    },
+    "key": "otherDE21",
+    "render": "textbox(required: true)",
+    "text": "",
+  },
+  "otherDE353": Object {
+    "answers": Object {
+      "noKey": Object {
+        "key": "noKey",
+        "text": null,
+      },
+    },
+    "key": "otherDE353",
+    "render": "textbox(required : true)",
+    "text": "",
+  },
+  "otherDE381": Object {
+    "answers": Object {
+      "noKey": Object {
+        "key": "noKey",
+        "text": null,
+      },
+    },
+    "key": "otherDE381",
+    "render": "textbox(required : true)",
+    "text": "",
+  },
+  "otherDE399": Object {
+    "answers": Object {
+      "noKey": Object {
+        "key": "noKey",
+        "text": null,
+      },
+    },
+    "key": "otherDE399",
+    "render": "textbox(required : true)",
+    "text": "",
+  },
+  "otherDE408": Object {
+    "answers": Object {
+      "noKey": Object {
+        "key": "noKey",
+        "text": null,
+      },
+    },
+    "key": "otherDE408",
+    "render": "textbox(required : true)",
+    "text": "",
+  },
+  "otherDE513": Object {
+    "answers": Object {
+      "noKey": Object {
+        "key": "noKey",
+        "text": null,
+      },
+    },
+    "key": "otherDE513",
+    "render": "textbox(required : true)",
+    "text": "",
+  },
+  "otherDE534": Object {
+    "answers": Object {
+      "noKey": Object {
+        "key": "noKey",
+        "text": null,
+      },
+    },
+    "key": "otherDE534",
+    "render": "textbox(required : true)",
+    "text": "",
+  },
+  "review": Object {
+    "answers": Object {
+      "noKey": Object {
+        "key": "noKey",
+        "nextQuestion": "STOP",
+        "text": null,
+      },
+    },
+    "key": "review",
+    "render": "review",
+    "text": "Summary of Answers",
+  },
+}
+`;

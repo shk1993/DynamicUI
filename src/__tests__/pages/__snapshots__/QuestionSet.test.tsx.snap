@@ -1,0 +1,1081 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuestionSet disable attribute on button should not appear if checkbox has been selected 1`] = `
+<div>
+  <div
+    class="MuiGrid-container-415 MuiGrid-justify-xs-center-432"
+  >
+    <div
+      class="MuiGrid-item-416 MuiGrid-grid-xs-6-447"
+    >
+      <div
+        class="MuiPaper-root-507 MuiPaper-elevation8-517 MuiPaper-rounded-508 MuiCard-root-506"
+      >
+        <div
+          class="MuiCardHeader-root-534"
+        >
+          <div
+            class="MuiCardHeader-content-537"
+          >
+            <span
+              class="MuiTypography-root-540 MuiTypography-headline-545 MuiCardHeader-title-538"
+            >
+              Healthcare Event Reporting Form
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiCardContent-root-564"
+        >
+          <div>
+            <p>
+              <button
+                class="MuiButtonBase-root-581 MuiButton-root-565 MuiButton-sizeSmall-578"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label-566"
+                >
+                  DE21⟶ 
+                </span>
+                <span
+                  class="MuiTouchRipple-root-584"
+                />
+              </button>
+            </p>
+          </div>
+          <div>
+            <div>
+              <h3
+                class="MuiTypography-root-540 MuiTypography-subheading-547"
+              >
+                Which of the following categories are associated with the event or unsafe condition?
+              </h3>
+              <div>
+                <label>
+                  <div>
+                    <span
+                      class="MuiButtonBase-root-581 MuiIconButton-root-600 MuiSwitchBase-root-596 MuiCheckbox-root-591 MuiCheckbox-colorSecondary-595"
+                      input="[object Object]"
+                      label="Anestheia"
+                      meta="[object Object]"
+                      values="[object Object]"
+                    >
+                      <span
+                        class="MuiIconButton-label-605"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-606"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiSwitchBase-input-599"
+                          name="DE21"
+                          type="checkbox"
+                          value="A41"
+                        />
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root-584"
+                      />
+                    </span>
+                    
+
+                    Anestheia
+                    <br />
+                  </div>
+                </label>
+                <label>
+                  <div>
+                    <span
+                      class="MuiButtonBase-root-581 MuiIconButton-root-600 MuiSwitchBase-root-596 MuiCheckbox-root-591 MuiCheckbox-colorSecondary-595"
+                      input="[object Object]"
+                      label="Device or Medical/Surgical Supply"
+                      meta="[object Object]"
+                      values="[object Object]"
+                    >
+                      <span
+                        class="MuiIconButton-label-605"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-606"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiSwitchBase-input-599"
+                          name="DE21"
+                          type="checkbox"
+                          value="A45"
+                        />
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root-584"
+                      />
+                    </span>
+                    
+
+                    Device or Medical/Surgical Supply
+                    <br />
+                  </div>
+                </label>
+                <label>
+                  <div>
+                    <span
+                      class="MuiButtonBase-root-581 MuiIconButton-root-600 MuiSwitchBase-root-596 MuiCheckbox-root-591 MuiCheckbox-colorSecondary-595"
+                      input="[object Object]"
+                      label="Surgery, includes invasive procedure"
+                      meta="[object Object]"
+                      values="[object Object]"
+                    >
+                      <span
+                        class="MuiIconButton-label-605"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-606"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiSwitchBase-input-599"
+                          name="DE21"
+                          type="checkbox"
+                          value="A61"
+                        />
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root-584"
+                      />
+                    </span>
+                    
+
+                    Surgery, includes invasive procedure
+                    <br />
+                  </div>
+                </label>
+                <label>
+                  <div>
+                    <span
+                      class="MuiButtonBase-root-581 MuiIconButton-root-600 MuiSwitchBase-root-596 MuiCheckbox-root-591 MuiCheckbox-colorSecondary-595"
+                      input="[object Object]"
+                      label="Pressure injury"
+                      meta="[object Object]"
+                      values="[object Object]"
+                    >
+                      <span
+                        class="MuiIconButton-label-605"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-606"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiSwitchBase-input-599"
+                          name="DE21"
+                          type="checkbox"
+                          value="A60"
+                        />
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root-584"
+                      />
+                    </span>
+                    
+
+                    Pressure injury
+                    <br />
+                  </div>
+                </label>
+                <label>
+                  <div>
+                    <span
+                      class="MuiButtonBase-root-581 MuiIconButton-root-600 MuiSwitchBase-root-596 MuiCheckbox-root-591 MuiCheckbox-colorSecondary-595"
+                      input="[object Object]"
+                      label="Blood or Blood Product"
+                      meta="[object Object]"
+                      values="[object Object]"
+                    >
+                      <span
+                        class="MuiIconButton-label-605"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-606"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiSwitchBase-input-599"
+                          name="DE21"
+                          type="checkbox"
+                          value="A42"
+                        />
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root-584"
+                      />
+                    </span>
+                    
+
+                    Blood or Blood Product
+                    <br />
+                  </div>
+                </label>
+                <label>
+                  <div>
+                    <span
+                      class="MuiButtonBase-root-581 MuiIconButton-root-600 MuiSwitchBase-root-596 MuiCheckbox-root-591 MuiCheckbox-colorSecondary-595"
+                      input="[object Object]"
+                      label="Fall"
+                      meta="[object Object]"
+                      values="[object Object]"
+                    >
+                      <span
+                        class="MuiIconButton-label-605"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-606"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiSwitchBase-input-599"
+                          name="DE21"
+                          type="checkbox"
+                          value="A48"
+                        />
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root-584"
+                      />
+                    </span>
+                    
+
+                    Fall
+                    <br />
+                  </div>
+                </label>
+                <label>
+                  <div>
+                    <span
+                      class="MuiButtonBase-root-581 MuiIconButton-root-600 MuiSwitchBase-root-596 MuiCheckbox-root-591 MuiCheckbox-colorSecondary-595"
+                      input="[object Object]"
+                      label="Healthcare-associated Infection‬"
+                      meta="[object Object]"
+                      values="[object Object]"
+                    >
+                      <span
+                        class="MuiIconButton-label-605"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-606"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiSwitchBase-input-599"
+                          name="DE21"
+                          type="checkbox"
+                          value="A51"
+                        />
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root-584"
+                      />
+                    </span>
+                    
+
+                    Healthcare-associated Infection‬
+                    <br />
+                  </div>
+                </label>
+                <label>
+                  <div>
+                    <span
+                      class="MuiButtonBase-root-581 MuiIconButton-root-600 MuiSwitchBase-root-596 MuiCheckbox-root-591 MuiCheckbox-colorSecondary-595"
+                      input="[object Object]"
+                      label="Medication or Other Substance"
+                      meta="[object Object]"
+                      values="[object Object]"
+                    >
+                      <span
+                        class="MuiIconButton-label-605"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-606"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiSwitchBase-input-599"
+                          name="DE21"
+                          type="checkbox"
+                          value="A54"
+                        />
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root-584"
+                      />
+                    </span>
+                    
+
+                    Medication or Other Substance
+                    <br />
+                  </div>
+                </label>
+                <label>
+                  <div>
+                    <span
+                      class="MuiButtonBase-root-581 MuiIconButton-root-600 MuiSwitchBase-root-596 MuiCheckbox-root-591 MuiCheckbox-colorSecondary-595"
+                      input="[object Object]"
+                      label="Perinatal"
+                      meta="[object Object]"
+                      values="[object Object]"
+                    >
+                      <span
+                        class="MuiIconButton-label-605"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-606"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiSwitchBase-input-599"
+                          name="DE21"
+                          type="checkbox"
+                          value="A57"
+                        />
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root-584"
+                      />
+                    </span>
+                    
+
+                    Perinatal
+                    <br />
+                  </div>
+                </label>
+                <label>
+                  <div>
+                    <span
+                      class="MuiButtonBase-root-581 MuiIconButton-root-600 MuiSwitchBase-root-596 MuiCheckbox-root-591 MuiCheckbox-colorSecondary-595"
+                      input="[object Object]"
+                      label="Venous Thromboembolism"
+                      meta="[object Object]"
+                      values="[object Object]"
+                    >
+                      <span
+                        class="MuiIconButton-label-605"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-606"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiSwitchBase-input-599"
+                          name="DE21"
+                          type="checkbox"
+                          value="A64"
+                        />
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root-584"
+                      />
+                    </span>
+                    
+
+                    Venous Thromboembolism
+                    <br />
+                  </div>
+                </label>
+                <label>
+                  <div>
+                    <span
+                      child="otherDE21"
+                      class="MuiButtonBase-root-581 MuiIconButton-root-600 MuiSwitchBase-root-596 MuiCheckbox-root-591 MuiCheckbox-colorSecondary-595"
+                      input="[object Object]"
+                      label="Other: Please specify"
+                      meta="[object Object]"
+                      values="[object Object]"
+                    >
+                      <span
+                        class="MuiIconButton-label-605"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-606"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiSwitchBase-input-599"
+                          name="DE21"
+                          type="checkbox"
+                          value="A66"
+                        />
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root-584"
+                      />
+                    </span>
+                    
+
+                    Other: Please specify
+                    <br />
+                  </div>
+                </label>
+              </div>
+              <br />
+            </div>
+          </div>
+          <span
+            style="color: white;"
+          >
+            [
+            DE21
+            ]
+          </span>
+          <div
+            class="MuiGrid-container-415"
+          >
+            <div
+              class="MuiGrid-item-416 MuiGrid-grid-xs-6-447"
+            >
+              <button
+                class="MuiButtonBase-root-581 MuiButton-root-565 MuiButton-flatSecondary-568 MuiButton-sizeLarge-579 MuiButton-fullWidth-580"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label-566"
+                >
+                  Back
+                </span>
+                <span
+                  class="MuiTouchRipple-root-584"
+                />
+              </button>
+            </div>
+            <div
+              class="MuiGrid-item-416 MuiGrid-grid-xs-6-447"
+            >
+              <button
+                class="MuiButtonBase-root-581 MuiButtonBase-disabled-582 MuiButton-root-565 MuiButton-flatPrimary-567 MuiButton-sizeLarge-579 MuiButton-disabled-575 MuiButton-fullWidth-580"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label-566"
+                >
+                  Next
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`QuestionSet disable attribute on button should not appear if checkbox has been selected 2`] = `
+<div>
+  <div
+    class="MuiGrid-container-415 MuiGrid-justify-xs-center-432"
+  >
+    <div
+      class="MuiGrid-item-416 MuiGrid-grid-xs-6-447"
+    >
+      <div
+        class="MuiPaper-root-507 MuiPaper-elevation8-517 MuiPaper-rounded-508 MuiCard-root-506"
+      >
+        <div
+          class="MuiCardHeader-root-534"
+        >
+          <div
+            class="MuiCardHeader-content-537"
+          >
+            <span
+              class="MuiTypography-root-540 MuiTypography-headline-545 MuiCardHeader-title-538"
+            >
+              Healthcare Event Reporting Form
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiCardContent-root-564"
+        >
+          <div>
+            <p>
+              <button
+                class="MuiButtonBase-root-581 MuiButton-root-565 MuiButton-sizeSmall-578"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label-566"
+                >
+                  DE21⟶ 
+                </span>
+                <span
+                  class="MuiTouchRipple-root-584"
+                />
+              </button>
+            </p>
+          </div>
+          <div>
+            <div>
+              <h3
+                class="MuiTypography-root-540 MuiTypography-subheading-547"
+              >
+                Which of the following categories are associated with the event or unsafe condition?
+              </h3>
+              <div>
+                <label>
+                  <div>
+                    <span
+                      class="MuiButtonBase-root-581 MuiIconButton-root-600 MuiSwitchBase-root-596 MuiCheckbox-root-591 MuiCheckbox-colorSecondary-595 MuiSwitchBase-checked-597 MuiCheckbox-checked-592"
+                      input="[object Object]"
+                      label="Anestheia"
+                      meta="[object Object]"
+                      values="[object Object]"
+                    >
+                      <span
+                        class="MuiIconButton-label-605"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-606"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiSwitchBase-input-599"
+                          name="DE21"
+                          type="checkbox"
+                          value="A41"
+                        />
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root-584"
+                      />
+                    </span>
+                    
+
+                    Anestheia
+                    <br />
+                  </div>
+                </label>
+                <label>
+                  <div>
+                    <span
+                      class="MuiButtonBase-root-581 MuiIconButton-root-600 MuiSwitchBase-root-596 MuiCheckbox-root-591 MuiCheckbox-colorSecondary-595"
+                      input="[object Object]"
+                      label="Device or Medical/Surgical Supply"
+                      meta="[object Object]"
+                      values="[object Object]"
+                    >
+                      <span
+                        class="MuiIconButton-label-605"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-606"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiSwitchBase-input-599"
+                          name="DE21"
+                          type="checkbox"
+                          value="A45"
+                        />
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root-584"
+                      />
+                    </span>
+                    
+
+                    Device or Medical/Surgical Supply
+                    <br />
+                  </div>
+                </label>
+                <label>
+                  <div>
+                    <span
+                      class="MuiButtonBase-root-581 MuiIconButton-root-600 MuiSwitchBase-root-596 MuiCheckbox-root-591 MuiCheckbox-colorSecondary-595"
+                      input="[object Object]"
+                      label="Surgery, includes invasive procedure"
+                      meta="[object Object]"
+                      values="[object Object]"
+                    >
+                      <span
+                        class="MuiIconButton-label-605"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-606"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiSwitchBase-input-599"
+                          name="DE21"
+                          type="checkbox"
+                          value="A61"
+                        />
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root-584"
+                      />
+                    </span>
+                    
+
+                    Surgery, includes invasive procedure
+                    <br />
+                  </div>
+                </label>
+                <label>
+                  <div>
+                    <span
+                      class="MuiButtonBase-root-581 MuiIconButton-root-600 MuiSwitchBase-root-596 MuiCheckbox-root-591 MuiCheckbox-colorSecondary-595"
+                      input="[object Object]"
+                      label="Pressure injury"
+                      meta="[object Object]"
+                      values="[object Object]"
+                    >
+                      <span
+                        class="MuiIconButton-label-605"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-606"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiSwitchBase-input-599"
+                          name="DE21"
+                          type="checkbox"
+                          value="A60"
+                        />
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root-584"
+                      />
+                    </span>
+                    
+
+                    Pressure injury
+                    <br />
+                  </div>
+                </label>
+                <label>
+                  <div>
+                    <span
+                      class="MuiButtonBase-root-581 MuiIconButton-root-600 MuiSwitchBase-root-596 MuiCheckbox-root-591 MuiCheckbox-colorSecondary-595"
+                      input="[object Object]"
+                      label="Blood or Blood Product"
+                      meta="[object Object]"
+                      values="[object Object]"
+                    >
+                      <span
+                        class="MuiIconButton-label-605"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-606"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiSwitchBase-input-599"
+                          name="DE21"
+                          type="checkbox"
+                          value="A42"
+                        />
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root-584"
+                      />
+                    </span>
+                    
+
+                    Blood or Blood Product
+                    <br />
+                  </div>
+                </label>
+                <label>
+                  <div>
+                    <span
+                      class="MuiButtonBase-root-581 MuiIconButton-root-600 MuiSwitchBase-root-596 MuiCheckbox-root-591 MuiCheckbox-colorSecondary-595"
+                      input="[object Object]"
+                      label="Fall"
+                      meta="[object Object]"
+                      values="[object Object]"
+                    >
+                      <span
+                        class="MuiIconButton-label-605"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-606"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiSwitchBase-input-599"
+                          name="DE21"
+                          type="checkbox"
+                          value="A48"
+                        />
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root-584"
+                      />
+                    </span>
+                    
+
+                    Fall
+                    <br />
+                  </div>
+                </label>
+                <label>
+                  <div>
+                    <span
+                      class="MuiButtonBase-root-581 MuiIconButton-root-600 MuiSwitchBase-root-596 MuiCheckbox-root-591 MuiCheckbox-colorSecondary-595"
+                      input="[object Object]"
+                      label="Healthcare-associated Infection‬"
+                      meta="[object Object]"
+                      values="[object Object]"
+                    >
+                      <span
+                        class="MuiIconButton-label-605"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-606"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiSwitchBase-input-599"
+                          name="DE21"
+                          type="checkbox"
+                          value="A51"
+                        />
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root-584"
+                      />
+                    </span>
+                    
+
+                    Healthcare-associated Infection‬
+                    <br />
+                  </div>
+                </label>
+                <label>
+                  <div>
+                    <span
+                      class="MuiButtonBase-root-581 MuiIconButton-root-600 MuiSwitchBase-root-596 MuiCheckbox-root-591 MuiCheckbox-colorSecondary-595"
+                      input="[object Object]"
+                      label="Medication or Other Substance"
+                      meta="[object Object]"
+                      values="[object Object]"
+                    >
+                      <span
+                        class="MuiIconButton-label-605"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-606"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiSwitchBase-input-599"
+                          name="DE21"
+                          type="checkbox"
+                          value="A54"
+                        />
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root-584"
+                      />
+                    </span>
+                    
+
+                    Medication or Other Substance
+                    <br />
+                  </div>
+                </label>
+                <label>
+                  <div>
+                    <span
+                      class="MuiButtonBase-root-581 MuiIconButton-root-600 MuiSwitchBase-root-596 MuiCheckbox-root-591 MuiCheckbox-colorSecondary-595"
+                      input="[object Object]"
+                      label="Perinatal"
+                      meta="[object Object]"
+                      values="[object Object]"
+                    >
+                      <span
+                        class="MuiIconButton-label-605"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-606"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiSwitchBase-input-599"
+                          name="DE21"
+                          type="checkbox"
+                          value="A57"
+                        />
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root-584"
+                      />
+                    </span>
+                    
+
+                    Perinatal
+                    <br />
+                  </div>
+                </label>
+                <label>
+                  <div>
+                    <span
+                      class="MuiButtonBase-root-581 MuiIconButton-root-600 MuiSwitchBase-root-596 MuiCheckbox-root-591 MuiCheckbox-colorSecondary-595"
+                      input="[object Object]"
+                      label="Venous Thromboembolism"
+                      meta="[object Object]"
+                      values="[object Object]"
+                    >
+                      <span
+                        class="MuiIconButton-label-605"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-606"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiSwitchBase-input-599"
+                          name="DE21"
+                          type="checkbox"
+                          value="A64"
+                        />
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root-584"
+                      />
+                    </span>
+                    
+
+                    Venous Thromboembolism
+                    <br />
+                  </div>
+                </label>
+                <label>
+                  <div>
+                    <span
+                      child="otherDE21"
+                      class="MuiButtonBase-root-581 MuiIconButton-root-600 MuiSwitchBase-root-596 MuiCheckbox-root-591 MuiCheckbox-colorSecondary-595"
+                      input="[object Object]"
+                      label="Other: Please specify"
+                      meta="[object Object]"
+                      values="[object Object]"
+                    >
+                      <span
+                        class="MuiIconButton-label-605"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-606"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiSwitchBase-input-599"
+                          name="DE21"
+                          type="checkbox"
+                          value="A66"
+                        />
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root-584"
+                      />
+                    </span>
+                    
+
+                    Other: Please specify
+                    <br />
+                  </div>
+                </label>
+              </div>
+              <br />
+            </div>
+          </div>
+          <span
+            style="color: white;"
+          >
+            [
+            DE21
+            ]
+          </span>
+          <div
+            class="MuiGrid-container-415"
+          >
+            <div
+              class="MuiGrid-item-416 MuiGrid-grid-xs-6-447"
+            >
+              <button
+                class="MuiButtonBase-root-581 MuiButton-root-565 MuiButton-flatSecondary-568 MuiButton-sizeLarge-579 MuiButton-fullWidth-580"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label-566"
+                >
+                  Back
+                </span>
+                <span
+                  class="MuiTouchRipple-root-584"
+                />
+              </button>
+            </div>
+            <div
+              class="MuiGrid-item-416 MuiGrid-grid-xs-6-447"
+            >
+              <button
+                class="MuiButtonBase-root-581 MuiButton-root-565 MuiButton-flatPrimary-567 MuiButton-sizeLarge-579 MuiButton-fullWidth-580"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label-566"
+                >
+                  Next
+                </span>
+                <span
+                  class="MuiTouchRipple-root-584"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

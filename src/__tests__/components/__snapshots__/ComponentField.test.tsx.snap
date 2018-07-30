@@ -1,0 +1,264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ComponentField component should render the date and radio buttons on question DE9 1`] = `
+<div>
+  <div>
+    <h3
+      class="MuiTypography-root-1 MuiTypography-subheading-8"
+    >
+      What is the event discovery date/time?
+    </h3>
+    <div>
+      <div
+        class="react-datepicker-wrapper"
+      >
+        <div
+          class="react-datepicker__input-container"
+        >
+          <div
+            answers="[object Object]"
+            attributes="[object Object],[object Object],[object Object]"
+            class="MuiFormControl-root-25 MuiFormControl-fullWidth-28"
+            input="[object Object]"
+            meta="[object Object]"
+            values="[object Object]"
+          >
+            <div
+              class="MuiInput-root-29 MuiInput-fullWidth-36 MuiInput-formControl-30 MuiInput-underline-33"
+            >
+              <input
+                aria-invalid="false"
+                aria-required="false"
+                class="MuiInput-input-37"
+                name="DE9"
+                placeholder="MM/DD/YYYY"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <label>
+        <div>
+          <span
+            class="MuiButtonBase-root-57 MuiIconButton-root-51 MuiSwitchBase-root-47 MuiRadio-root-42 MuiRadio-colorSecondary-46"
+            input="[object Object]"
+            label="Unknown"
+            meta="[object Object]"
+            values="[object Object]"
+          >
+            <span
+              class="MuiIconButton-label-56"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-60"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                />
+              </svg>
+              <input
+                class="MuiSwitchBase-input-50"
+                name="DE9"
+                type="radio"
+                value="UNK"
+              />
+            </span>
+            <span
+              class="MuiTouchRipple-root-66"
+            />
+          </span>
+          
+
+          Unknown
+          <br />
+        </div>
+      </label>
+    </div>
+    <br />
+  </div>
+</div>
+`;
+
+exports[`ComponentField component should render the datepicker on question DE30 1`] = `
+<div>
+  <div>
+    <h3
+      class="MuiTypography-root-1 MuiTypography-subheading-8"
+    >
+      What is the date the Common Formats patient safety module was completed?
+    </h3>
+    <div>
+      <div
+        class="react-datepicker-wrapper"
+      >
+        <div
+          class="react-datepicker__input-container"
+        >
+          <div
+            answers="[object Object]"
+            attributes="[object Object]"
+            class="MuiFormControl-root-25 MuiFormControl-fullWidth-28"
+            input="[object Object]"
+            meta="[object Object]"
+            values="[object Object]"
+          >
+            <div
+              class="MuiInput-root-29 MuiInput-fullWidth-36 MuiInput-formControl-30 MuiInput-underline-33"
+            >
+              <input
+                aria-invalid="false"
+                aria-required="false"
+                class="MuiInput-input-37"
+                name="DE30"
+                placeholder="MM/DD/YYYY"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+  </div>
+</div>
+`;
+
+exports[`ComponentField component should render the radio buttons on question DE3 1`] = `
+<div>
+  <div>
+    <h3
+      class="MuiTypography-root-1 MuiTypography-subheading-8"
+    >
+      What is being reported?
+    </h3>
+    <div>
+      <label>
+        <div>
+          <span
+            class="MuiButtonBase-root-57 MuiIconButton-root-51 MuiSwitchBase-root-47 MuiRadio-root-42 MuiRadio-colorSecondary-46"
+            input="[object Object]"
+            label="Incident: A patient safety event that reached the patient, whether or not the patient was harmed."
+            meta="[object Object]"
+            values="[object Object]"
+          >
+            <span
+              class="MuiIconButton-label-56"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-60"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                />
+              </svg>
+              <input
+                class="MuiSwitchBase-input-50"
+                name="DE3"
+                type="radio"
+                value="A3"
+              />
+            </span>
+            <span
+              class="MuiTouchRipple-root-66"
+            />
+          </span>
+          
+
+          Incident: A patient safety event that reached the patient, whether or not the patient was harmed.
+          <br />
+        </div>
+      </label>
+      <label>
+        <div>
+          <span
+            class="MuiButtonBase-root-57 MuiIconButton-root-51 MuiSwitchBase-root-47 MuiRadio-root-42 MuiRadio-colorSecondary-46"
+            input="[object Object]"
+            label="Near Miss: A patient safety event that did not reach the patient."
+            meta="[object Object]"
+            values="[object Object]"
+          >
+            <span
+              class="MuiIconButton-label-56"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-60"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                />
+              </svg>
+              <input
+                class="MuiSwitchBase-input-50"
+                name="DE3"
+                type="radio"
+                value="A6"
+              />
+            </span>
+            <span
+              class="MuiTouchRipple-root-66"
+            />
+          </span>
+          
+
+          Near Miss: A patient safety event that did not reach the patient.
+          <br />
+        </div>
+      </label>
+      <label>
+        <div>
+          <span
+            class="MuiButtonBase-root-57 MuiIconButton-root-51 MuiSwitchBase-root-47 MuiRadio-root-42 MuiRadio-colorSecondary-46"
+            input="[object Object]"
+            label="Unsafe Condition: Any circumstance that increases the probability of a patient safety event."
+            meta="[object Object]"
+            values="[object Object]"
+          >
+            <span
+              class="MuiIconButton-label-56"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-60"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                />
+              </svg>
+              <input
+                class="MuiSwitchBase-input-50"
+                name="DE3"
+                type="radio"
+                value="A9"
+              />
+            </span>
+            <span
+              class="MuiTouchRipple-root-66"
+            />
+          </span>
+          
+
+          Unsafe Condition: Any circumstance that increases the probability of a patient safety event.
+          <br />
+        </div>
+      </label>
+    </div>
+    <br />
+  </div>
+</div>
+`;

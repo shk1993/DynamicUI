@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test FormField component checks whether the CheckboxField matches snapshot 1`] = `
+<div>
+  <label>
+    <div>
+      <span
+        class="MuiButtonBase-root-43 MuiIconButton-root-37 MuiSwitchBase-root-33 MuiCheckbox-root-62 MuiCheckbox-colorSecondary-66"
+        input="[object Object]"
+        label=""
+        meta="[object Object]"
+        values="[object Object]"
+      >
+        <span
+          class="MuiIconButton-label-42"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root-46"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+            />
+          </svg>
+          <input
+            class="MuiSwitchBase-input-36"
+            name="DE30"
+            type="checkbox"
+            value="noKey"
+          />
+        </span>
+        <span
+          class="MuiTouchRipple-root-52"
+        />
+      </span>
+      
+
+      
+      <br />
+    </div>
+  </label>
+</div>
+`;
+
+exports[`Test FormField component checks whether the DatePicker matches snapshot 1`] = `
+<div>
+  <div
+    class="react-datepicker-wrapper"
+  >
+    <div
+      class="react-datepicker__input-container"
+    >
+      <div
+        answers="[object Object]"
+        attributes="[object Object]"
+        class="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
+        input="[object Object]"
+        meta="[object Object]"
+        values="[object Object]"
+      >
+        <label
+          class="MuiFormLabel-root-10 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
+          data-shrink="false"
+        >
+          dd
+        </label>
+        <div
+          class="MuiInput-root-15 MuiInput-fullWidth-22 MuiInput-formControl-16 MuiInput-underline-19"
+        >
+          <input
+            aria-invalid="false"
+            aria-required="false"
+            class="MuiInput-input-23"
+            name="DE30"
+            placeholder="MM/DD/YYYY"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test FormField component checks whether the FieldArray matches snapshot 1`] = `
+<div>
+  <button
+    class="MuiButtonBase-root-43 MuiButton-root-67 MuiButton-flatPrimary-69"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label-68"
+    >
+      Add
+    </span>
+    <span
+      class="MuiTouchRipple-root-52"
+    />
+  </button>
+</div>
+`;
+
+exports[`Test FormField component checks whether the InputField matches snapshot 1`] = `
+<div
+  answers="[object Object]"
+  attributes="[object Object]"
+  class="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
+  input="[object Object]"
+  meta="[object Object]"
+  values="[object Object]"
+>
+  <label
+    class="MuiFormLabel-root-10 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
+    data-shrink="false"
+  >
+    dd
+  </label>
+  <div
+    class="MuiInput-root-15 MuiInput-fullWidth-22 MuiInput-formControl-16 MuiInput-multiline-21 MuiInput-underline-19"
+  >
+    <div
+      class="Textarea-root-59"
+      style="height: 0px;"
+    >
+      <textarea
+        aria-hidden="true"
+        class="Textarea-shadow-61 Textarea-textarea-60"
+        readonly=""
+        rows="1"
+        tabindex="-1"
+      />
+      <textarea
+        aria-hidden="true"
+        class="Textarea-shadow-61 Textarea-textarea-60"
+        readonly=""
+        rows="1"
+        tabindex="-1"
+      />
+      <textarea
+        aria-invalid="false"
+        aria-required="false"
+        class="Textarea-textarea-60 MuiInput-input-23 MuiInput-inputMultiline-25"
+        name="DE30"
+        placeholder="dd"
+        rows="1"
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test FormField component checks whether the RadioField matches snapshot 1`] = `
+<div>
+  <label>
+    <div>
+      <span
+        class="MuiButtonBase-root-43 MuiIconButton-root-37 MuiSwitchBase-root-33 MuiRadio-root-28 MuiRadio-colorSecondary-32"
+        input="[object Object]"
+        label=""
+        meta="[object Object]"
+        values="[object Object]"
+      >
+        <span
+          class="MuiIconButton-label-42"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root-46"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+            />
+          </svg>
+          <input
+            class="MuiSwitchBase-input-36"
+            name="DE30"
+            type="radio"
+            value="noKey"
+          />
+        </span>
+        <span
+          class="MuiTouchRipple-root-52"
+        />
+      </span>
+      
+
+      
+      <br />
+    </div>
+  </label>
+</div>
+`;
