@@ -4,7 +4,6 @@ import ComponentList from '../components/ComponentList';
 import ICurrentQuestion from '../interfaces/currentQuestion';
 import { IRenderComponent } from '../interfaces/parseRender';
 import { setHistory } from '../state/historyState';
-import AddQSToWindow from '../util/AddQuestionSetToWindow';
 import FlattenAnswers from '../util/FlattenAnswers';
 import ParseRender from '../util/ParseRender';
 import ReturnAnswers from '../util/ReturnAnswers';
@@ -16,7 +15,6 @@ import QuestionSet from '../util/SampleQuestionSet';
  * @returns     React component consisting of the question(s) and answer(s)
  */
 export default (props: ICurrentQuestion) => {
-  AddQSToWindow();
   const renderGroup = [];
   setHistory(props.values);
   for (const question of props.currentQuestion) {

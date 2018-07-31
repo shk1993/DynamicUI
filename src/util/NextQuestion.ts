@@ -12,7 +12,7 @@ import QuestionSet from './SampleQuestionSet';
 const getNextQuestions = (nextQuestions: IQuestionReturn[]) => {
   const nextQuestionIds = [];
   for (const question of nextQuestions) {
-    nextQuestionIds.push(question.DEID);
+    nextQuestionIds.push(question.QID);
   }
   return nextQuestionIds;
 };

@@ -18,15 +18,15 @@ grammar = Grammar.fromCompiled(require('../grammar/nextQuestion'));
 
 const isConditionTrue = (condition: ICondition) => {
   const result = map[condition.condEval.state][condition.expr](
-    condition.condEval.DEID,
+    condition.condEval.QID,
     condition.AID,
   );
   return result !== undefined ? result : true;
 };
 
 const evaluateNextQuestionFunction = (deid: IDEIDFunction) => {
-  const nextQuestion = map.loop.peek(deid.state.DEID);
-  map.loop.pop(deid.state.DEID);
+  const nextQuestion = map.loop.peek(deid.state.QID);
+  map.loop.pop(deid.state.QID);
   return nextQuestion;
 };
 
@@ -43,11 +43,11 @@ const parseNextQuestion = (nextQuestion: string) => {
 };
 
 const getNextQuestion = (nextQuestion: IQuestionValue): IQuestionReturn => {
-  return typeof nextQuestion.DEID === 'string'
+  return typeof nextQuestion.QID === 'string'
     ? (nextQuestion as IQuestionReturn)
     : {
         modifier: nextQuestion.modifier,
-        DEID: evaluateNextQuestionFunction(nextQuestion.DEID),
+        QID: evaluateNextQuestionFunction(nextQuestion.QID),
       };
 };
 

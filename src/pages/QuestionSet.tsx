@@ -6,7 +6,6 @@ import arrayMutators from 'final-form-arrays';
 import * as React from 'react';
 import { Form } from 'react-final-form';
 import ComponentField from '../components/ComponentField';
-import CurrentQuestion from '../components/CurrentQuestionID';
 import { QuestionHistory } from '../components/QuestionHistory';
 import SubmitButtons from '../components/SubmitButtons';
 import { IQuestionData } from '../interfaces/questions';
@@ -29,7 +28,7 @@ export default class QuestionSet extends React.Component {
 
   handleBackButton = () => {
     if (map.flow.count() > 1) {
-      map.flow.pop(); 
+      map.flow.pop();
       this.setState({
         currentQuestion: map.flow.peek(),
       });
@@ -106,7 +105,10 @@ export default class QuestionSet extends React.Component {
     return (
       <Form
         onSubmit={(values: IQuestionData) => {
-          setTimeout(() => alert(`Submitted! \n${JSON.stringify(values, null, 2)}`), 500);
+          setTimeout(
+            () => alert(`Submitted! \n${JSON.stringify(values, null, 2)}`),
+            500,
+          );
         }}
         mutators={{
           ...arrayMutators,
@@ -123,9 +125,7 @@ export default class QuestionSet extends React.Component {
             {(this.handleEnterEvent = this.handleEnterKeyPress(values))}
             <Grid item xs={6}>
               <Card raised>
-                <CardHeader
-                  title={'Vehicle Inquiry Form'}
-                />
+                <CardHeader title={'Vehicle Inquiry Form'} />
                 <CardContent>
                   <QuestionHistory
                     updateQuestionState={this.updateQuestionState}
@@ -134,9 +134,6 @@ export default class QuestionSet extends React.Component {
                     currentQuestion={this.state.currentQuestion}
                     values={values}
                     push={push}
-                  />
-                  <CurrentQuestion
-                    currentQuestion={this.state.currentQuestion}
                   />
                   <SubmitButtons
                     currentQuestion={this.state.currentQuestion}

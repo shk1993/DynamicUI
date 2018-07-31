@@ -8,7 +8,7 @@ export interface ICondition {
     state: string;
 
     /** the quesiton id of the value to retrive */
-    DEID: string;
+    QID: string;
   };
 
   /** the expression to evaluate. could be == or isEmpty */
@@ -31,7 +31,7 @@ export interface IDEIDFunction {
     state: string;
 
     /** the quesiton id of the value to retrive */
-    DEID: string;
+    QID: string;
   };
 
   /** the function to call. for example, push or pop */
@@ -46,7 +46,7 @@ export interface IQuestionValue {
   modifier: string | null;
 
   /** QuestionID of the next question or a function to perform an option on the question id */
-  DEID: string | IDEIDFunction;
+  QID: string | IDEIDFunction;
 }
 
 /**
@@ -57,7 +57,7 @@ export interface IQuestionReturn {
   modifier: string | null;
 
   /** QuestionID of the next question */
-  DEID: string;
+  QID: string;
 }
 
 /**
