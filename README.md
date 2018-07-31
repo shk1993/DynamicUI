@@ -36,6 +36,8 @@ This application has been designed to be a reference for creating a dynamic UI a
 
 After dependencies are installed, run `$ yarn start` from inside the root directory to start up the development server.
 
+To get the documentation, run `$ yarn gen:docs` from inside the root directory. The documentation will be generated in the docs folder. Launch `index.html` to view high lever structure. Launch `globals.html` to view each API/function documentation.
+
 If building for production, run `$ yarn build` and copy the static JavaScript into DynamicUI application.
 
 ## Usage
