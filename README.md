@@ -1,6 +1,6 @@
-# *TSN Question Set*
+# *Dynamic UI*
 
-This application is designed to be used to record new events in the TSN project. These events are saved in the TSN project for reporting and documentation.
+This application has been designed to be a reference for creating a dynamic UI application from JSON data.
 
 ## Setup 
 
@@ -36,35 +36,21 @@ This application is designed to be used to record new events in the TSN project.
 
 After dependencies are installed, run `$ yarn start` from inside the root directory to start up the development server.
 
-If building for production, run `$ yarn build` and copy the static JavaScript into TSN application.
+If building for production, run `$ yarn build` and copy the static JavaScript into DynamicUI application.
 
 ## Usage
 
-TSN Workflow
-* User clicks on 'Add New Event'
-* TSN Application queries the database for the user's organization's question set
-* TSN Application saves the QuestionSet as a global variable accessible to our application
-* User fills out questions by following the flow of the form.
-* User clicks the submit button.
-* Our application calls the TSN application's submit button to save in the database
+Vehicle Inquiry Form Workflow
+* User fills information on the form
+* Navigates through the form using the Next and Back buttons
+* User clicks on the Submit buttons
+* A summary of answers is generated, which can then be used by other applications or stored in a DB
 
 ## Main Component
 
 We have one stateful component, named QuestionSet. This component renders the form and handles the current question as a state variable. All other components are functional components and make up the QuestionSet components.
 
-## Team
+## Contributed By
 
-* Peter Yu peteryu@tamhsc.edu
-* Cory Thompson cthompson@tamhsc.edu
-* Ledet Awano
+* Prof. Hank Walker
 * Shashwat Kumar
-* Jigna Reshamwala
-
-**TSN Shoutouts** 
-* Raul Jimenez rjimenez@tamhsc.edu
-* Jose Manriquez manriquez@tamhsc.edu
-
-
-## Errors and bugs
-
-Report all bugs and issues in [JIRA](http://jira.66.64.75.52.xip.io/projects/TQS/summary).
